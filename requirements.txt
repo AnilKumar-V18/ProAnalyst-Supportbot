@@ -1,13 +1,12 @@
 streamlit>=1.36.0
+langchain==0.1.20
+langchain-community==0.0.30
 
-langchain>=0.1.20
-langchain-community>=0.0.30
-
-chromadb>=0.4.24
-sentence-transformers>=2.2.2
+chromadb==0.4.24
+sentence-transformers==2.2.2
 
 python-dotenv==1.0.0
 requests==2.31.0
 
-numpy<2.0
-altair>=5.0
+numpy==1.26.4
+altair
